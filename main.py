@@ -8,7 +8,8 @@ prompt = st.text_input("Entrez votre question :")
 
 if st.button("Envoyer"):
     if prompt:
-        url = "http://127.0.0.1:11434/api/generate"
+        url = "url = "https://abcd1234.ngrok.io/api/generate"
+"
         payload = {"model": "orca-mini:7b", "prompt": prompt}
         headers = {"Content-Type": "application/json"}
 
